@@ -1,0 +1,11 @@
+name: jaxenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - jax=0.4
+  - diffrax=0.5
+  - matplotlib=3.8
+  - ipykernel
