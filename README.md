@@ -39,7 +39,7 @@ Once conda is installed, you can use it to create individual Python environments
 The line below will create a new environment, called `p2ddm-env`, and install a handful of packages.
 
 ```bash
-conda create -n p2ddm-env python=3.10 numpy matplotlib scipy jupyter ipykernel
+conda create -n p2ddm-env python=3.10 numpy matplotlib scipy jupyter ipykernel seaborn pandas
 ```
 
 Activate the new environment by running 
